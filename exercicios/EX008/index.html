@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto</title>
+    <style>
+        mark{
+           background-color: brown; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semantica)</p> <!--COLOCA EM NEGRITO DO JEITO ERRADO-->
+    <p>Nesta frasse, tenho um <strong>termo em negrito</strong> usando  tag STRONG (semântica).</p><!--COLOCA EM NEGRITO DO JEITO CERTO-->
+    <h2>Itálico / Enfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semantica).</p><!--COLOCA EM ITALICO DO JEITO ERRADO-->
+    <p>Nesta frase temos um <em>termo em enfase</em> usando a tag EM (semantica).</p><!--COLOCA EM ENFASE DO JEITO CCERTO-->
+
+    <!--ACIMA É CONTEUDO DA AULA 3-->
+    
+    <h2>Tesxto marcado</h2>
+    <p>Podemos criar tambem <mark style="background-color: rgba(255, 81, 0, 0.432);">um texto marcado</mark> usando  a tag MARK.</p><!--ESSA TAG SERVE PARA COLOCAR UMA MARCAÇÃO USANDO CSS-->
+    <p>E no outro paragrafo, temos <mark>outro texto marcado</mark> no final.</p><!--PODENDO TAMBEM SER TROCADO A SUA COR NO HEAD-->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando  um <big>texto grande</big> <!--ESA TAG SE ENCONTRA OBSOLETA POR NÃO SER SEMANTICA--> e um <small>texxto pequeno</small><!---ESSA TAG AINDA É DISPONIVEL PORQUE É SEMANTICA (ENTRELINHAS)--> nesse paragrafo.</p>
+    <h2>Texto deletádo</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerádo</p><!--TAG USADA PARA TRAÇAR UMA LINHA NAS PALAVRAS ESCOLHIDAS-->
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indocar que ele foi adicionado depois.</p><!--TAG SEMANTICA USADA PARA SUBLINHAR PALAVRAS ESCOLHIDAS-->
+    <p>Existe também o <u>subilnhado</u><!--TAG NAO SEMANTICA--> com a tag U (não semantica)</p>
+    <h2>Texto sobreescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p><!--CARACTER EM CIMA-->
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p><!--CARACTER EM BAIXO-->
+</body>
+</html>

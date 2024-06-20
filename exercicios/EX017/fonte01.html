@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm(centimetro), mm(milimetro), in(polegada), px(pexel), pt(ponto), pc(paica)
+
+            Medidas relativas
+            em(autura do m maiusculo), ex(autura x da fonte), rem, vw(largura da view port), vh(autura da view port), %
+
+            geralmente 16px = 1em
+
+            recomendaçãoda w3c é de se usar px e em 
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* ligther, normal, bold, bolder*/
+            font-style: italic;
+            text-decoration: underline
+            ;
+        }
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-family
+
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontess</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga et animi, maxime officiis ab recusandae corrupti suscipit perspiciatis aperiam laboriosam? Asperiores quam odit perspiciatis aliquam sed non exercitationem repudiandae suscipit iure, minus consectetur alias adipisci inventore recusandae assumenda veritatis eius?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam pariatur maiores aliquam obcaecati officia dolores mollitia. Ad architecto ratione officia?</p>
+    <h2>Subtitulodo exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis autem nihil tempore! Modi, recusandae exercitationem aspernatur fugit accusantium maxime sapiente? Porro odio beatae at ullam qui dolorem fuga facilis natus!</p>
+</body>
+</html>
