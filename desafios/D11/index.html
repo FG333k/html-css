@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronalta no Espaço</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        div.espaco{
+            position: relative;
+            height: 100vh;
+            background-image: url(imagens/espaco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding: 0px;
+        }
+
+        div.astronalta{
+            background-image: url(imagens/astronauta.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="espaco">
+        <div class="astronalta"></div>
+    </div>
+</body>
+</html>
